@@ -4,9 +4,10 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #FF5F00;
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 8vh;
+  background-color: #FD5D5D;
+  font-family: 'Platypi', sans-serif;
+  font-size: 10vh;
+  color: #02a2a2
 }
 model-viewer {
   position: absolute;
@@ -41,10 +42,13 @@ margin-top: 0vh;
 
 }
 .b-i {
-  background-image: url('./raster.webp');
+  background-image: url('./schreber.webp');
   background-size: cover;
+  position: absolute;
+  opacity: 50%;
   width: 100vh;
   height: 100vh;
+  z-index: -5;
 }
 
 @keyframes colorChange {
