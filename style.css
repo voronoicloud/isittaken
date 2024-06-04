@@ -11,10 +11,10 @@ body {
 }
 model-viewer {
   position: absolute;
-  width: 70vh;
-  height: 70vh;
-  max-width: 600px;
-  max-height: 600px;
+  width: 50vh;
+  height: 50vh;
+  max-width: 500px;
+  max-height: 500px;
     z-index: 1;
 }
 @media (max-width: 600px) {
