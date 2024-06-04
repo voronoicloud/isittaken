@@ -3,7 +3,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   height: 100vh;
   background-color: black;
   font-family: 'Platypi', sans-serif;
@@ -22,4 +21,9 @@ model-viewer {
 position: inherit;
   width: 64px;
   height: 64px;
+}
+
+.d {
+  align-self: flex-end;
+
 }
