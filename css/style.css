@@ -34,7 +34,7 @@ model-viewer {
 
 
 #draggable {
-      width: 40%;
+      width: 50%;
       height: 10%;
       margin-left: 5px;
       background-color: blue;
@@ -43,6 +43,9 @@ model-viewer {
       left: 30%;
       cursor: grab;
     }
+
+
+
 
     @media (max-width: 1080px) {
       #draggable {
